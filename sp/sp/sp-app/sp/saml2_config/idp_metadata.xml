@@ -1,0 +1,48 @@
+<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.instamojo.com/metadata" validUntil="2020-06-16T06:03:33Z">
+<ns0:Extensions>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#md5"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#ripemd160"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-md5"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha224"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+</ns0:Extensions>
+<ns0:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<ns0:KeyDescriptor use="signing">
+<ns2:KeyInfo>
+<ns2:X509Data>
+<ns2:X509Certificate>
+MIICtDCCAZwCCQDacvvGcL3V7TANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDDBF3 d3cuaW5zdGFtb2pvLmNvbTAeFw0xOTA2MTExMTMyMDBaFw0yOTA2MDgxMTMyMDBa MBwxGjAYBgNVBAMMEXd3dy5pbnN0YW1vam8uY29tMIIBIjANBgkqhkiG9w0BAQEF AAOCAQ8AMIIBCgKCAQEAyp0AkoyDvFCvTmia/dbmgTrXAGKKjh3WfSW57d4K9zRA p+02WpP6kgDc7hd52JeSchVSucv/cTduJbDtk0025HPYFMc0zZJ6c7pRRXT1uSS+ u77pHzRlg4nmIQqOli3s0HL76e+gsXOo9I5j9Of/rvXHQKZUIipeoVIvd8feuOhp UwkPwrx6yuor7FSbC5ZlA0xlAk2QLJ9cHUe2FG6GcgOlT1+H5ncVQA1QcCiWFHNX OTOYVx80p8efjgy0BSUrkjI8og//VzmvRvPipE/Ee151+BPDuD86we4OmXRTl4kJ 9stuCJfYiEqMycA7UOqFO5uCOxaOsNJv7C56VkIB6wIDAQABMA0GCSqGSIb3DQEB CwUAA4IBAQBz+6Wf7pvShO5lXcK/Z+lGVPmjwhFfr6saWXvTHJ/3rBakJXGc1/EJ VADgOmj3gbnziAGbVMuAD/ej0EtdwORHDHlehIHDmbB/pbPa0fwlKOQM8/WajRg2 0Kzmm9UOKVyAP4k0NWAJMdhgK81ilLtTkgI57FmYICUODiPuB9ushJDKI1n2kVti mUY2ix9VuMcXGFbjMAZgR+lkJizBbbM5/2cLUBbISC7tT34jN3CTgybPgAqLtn8Y d3yATlMJNJAQUaBePSlNG73hZNwZLmF8pcaU/qEJ4N3FN811kkDTj5xVS/7fX+x6 l9rgGNnEJFmuNM/lwFmgsIJc0W1kgHis
+</ns2:X509Certificate>
+</ns2:X509Data>
+</ns2:KeyInfo>
+</ns0:KeyDescriptor>
+<ns0:KeyDescriptor use="encryption">
+<ns2:KeyInfo>
+<ns2:X509Data>
+<ns2:X509Certificate>
+MIICtDCCAZwCCQDacvvGcL3V7TANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDDBF3 d3cuaW5zdGFtb2pvLmNvbTAeFw0xOTA2MTExMTMyMDBaFw0yOTA2MDgxMTMyMDBa MBwxGjAYBgNVBAMMEXd3dy5pbnN0YW1vam8uY29tMIIBIjANBgkqhkiG9w0BAQEF AAOCAQ8AMIIBCgKCAQEAyp0AkoyDvFCvTmia/dbmgTrXAGKKjh3WfSW57d4K9zRA p+02WpP6kgDc7hd52JeSchVSucv/cTduJbDtk0025HPYFMc0zZJ6c7pRRXT1uSS+ u77pHzRlg4nmIQqOli3s0HL76e+gsXOo9I5j9Of/rvXHQKZUIipeoVIvd8feuOhp UwkPwrx6yuor7FSbC5ZlA0xlAk2QLJ9cHUe2FG6GcgOlT1+H5ncVQA1QcCiWFHNX OTOYVx80p8efjgy0BSUrkjI8og//VzmvRvPipE/Ee151+BPDuD86we4OmXRTl4kJ 9stuCJfYiEqMycA7UOqFO5uCOxaOsNJv7C56VkIB6wIDAQABMA0GCSqGSIb3DQEB CwUAA4IBAQBz+6Wf7pvShO5lXcK/Z+lGVPmjwhFfr6saWXvTHJ/3rBakJXGc1/EJ VADgOmj3gbnziAGbVMuAD/ej0EtdwORHDHlehIHDmbB/pbPa0fwlKOQM8/WajRg2 0Kzmm9UOKVyAP4k0NWAJMdhgK81ilLtTkgI57FmYICUODiPuB9ushJDKI1n2kVti mUY2ix9VuMcXGFbjMAZgR+lkJizBbbM5/2cLUBbISC7tT34jN3CTgybPgAqLtn8Y d3yATlMJNJAQUaBePSlNG73hZNwZLmF8pcaU/qEJ4N3FN811kkDTj5xVS/7fX+x6 l9rgGNnEJFmuNM/lwFmgsIJc0W1kgHis
+</ns2:X509Certificate>
+</ns2:X509Data>
+</ns2:KeyInfo>
+</ns0:KeyDescriptor>
+<ns0:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+</ns0:NameIDFormat>
+<ns0:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</ns0:NameIDFormat>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.instamojo.com/sso/post"/>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.instamojo.com/sso/redirect"/>
+</ns0:IDPSSODescriptor>
+</ns0:EntityDescriptor>
